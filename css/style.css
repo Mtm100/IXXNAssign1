@@ -1,0 +1,117 @@
+.topnav {
+	background-color: #ffffff;
+  overflow: hidden;
+	
+  }
+
+  .topnav a {
+	float: left;
+	color: #33cccc;
+	text-align: center;
+	line-height: 36px;
+	padding: 14px 18px;
+	text-decoration: none;
+  font-size: 17px;
+  font-family: 'Overpass', sans-serif;
+  }
+  
+  .topnav a:hover {
+	background-color: #2384f3;
+	color: #f2f2f2;
+  }
+  
+  .topnav a.active {
+	background-color: #424242;
+	color: #f2f2f2;
+  }
+  
+  /* Centered section inside the top navigation */
+  line-height:10px;
+  .topnav-centered a {
+	float: none;
+	position: relative;
+	top: 50%;
+	left: 33%;
+  transform: translate(-50%, -50%);
+  
+	
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+	float: right;
+  }
+  
+  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+  @media screen and (max-width: 600px) {
+	.topnav a, .topnav-right {
+	  float: none;
+	  display: block;
+	}
+  
+	.topnav-centered a {
+	  position: relative;
+	  top: 0;
+	  left: 0;
+	  transform: none;
+	}
+  }
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass', sans-serif;
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.banner {
+  width: 100%;
+  padding:380px 0;
+  text-align: center;
+  background: #bbbbbb;
+  color: white;
+}
+
+            #leftbox { 
+              line-height:120px;
+                float:left;  
+                background:rgb(18, 185, 207); 
+                width:50%; 
+                height:500px; 
+                text-align: center;
+            } 
+            #rightbox{ 
+              line-height:120px;
+                float:right; 
+                background: #ff7b00; 
+                width:50%; 
+                height:500px; 
+                text-align: center;
+            }
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px; 
+}
+
+.btn-bgstroke:hover {
+  background-color: white;
+  color: #33cccc;
+}
